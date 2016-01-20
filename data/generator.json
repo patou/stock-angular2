@@ -1,0 +1,9 @@
+[
+  '{{repeat(5, 7)}}',
+  {
+    id: '{{index()}}',
+    article: '{{lorem(1, "words")}}',
+    stock: '{{floating(0, 1000, 2)}}',
+    date: '{{date(new Date(2015, 0, 1))}}'
+  }
+]

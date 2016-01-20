@@ -1,0 +1,9 @@
+{
+  "firebase": "devfest-ionic",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
