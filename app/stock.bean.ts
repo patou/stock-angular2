@@ -1,6 +1,6 @@
 export interface Stock {
     id: number;
-    articl: string;
+    article: string;
     stock: number;
     date: string;
 }
