@@ -23,6 +23,9 @@
   background-color: #006C32;
   color: white !important;
 }
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited {
+    color: white;
+}
 
 /*
  * Main content

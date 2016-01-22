@@ -2,6 +2,7 @@ import {Component, OnInit} from 'angular2/core'
 import {NgFor} from 'angular2/common'
 import {Observable} from 'rxjs/Observable'
 import {DataService} from './data.service'
+import {Stock} from './stock.bean'
 
 @Component({
     selector: 'stock-angular2',
@@ -11,7 +12,7 @@ import {DataService} from './data.service'
     providers : [DataService]
 })
 export class StockAngular2 implements OnInit {
-  stocks: Array<any>;
+  stocks: Array<Stock>;
 
   constructor(private _dataService : DataService) {}
 

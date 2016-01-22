@@ -1,6 +1,7 @@
 import {StockAngular2} from './app.component'
+import {Stock} from './stock.bean'
 
-export var DATA: Array<any> = [{
+export var DATA: Array<Stock> = [{
         "id": 0,
         "article": "ut",
         "stock": 923.85,
@@ -10,7 +11,7 @@ export var DATA: Array<any> = [{
         "id": 1,
         "article": "et",
         "stock": 563.47,
-        "date": "Sat May 02 2015 12:20:30 GMT+0200 (Paris, Madrid (heure d’été))"
+        "date": "Sat May 02 2015 12:20:30 GMT+0200 (Paris, Madrid (heure d'Ã©tÃ©))"
     },
     {
         "id": 2,
@@ -22,7 +23,7 @@ export var DATA: Array<any> = [{
         "id": 3,
         "article": "Lorem",
         "stock": 345.62,
-        "date": "Wed Jul 29 2015 09:15:55 GMT+0200 (Paris, Madrid (heure d’été))"
+        "date": "Wed Jul 29 2015 09:15:55 GMT+0200 (Paris, Madrid (heure d'Ã©tÃ©))"
     },
     {
         "id": 4,
@@ -34,5 +35,5 @@ export var DATA: Array<any> = [{
         "id": 5,
         "article": "nulla",
         "stock": 341.83,
-        "date": "Fri May 15 2015 14:29:55 GMT+0200 (Paris, Madrid (heure d’été))"
+        "date": "Fri May 15 2015 14:29:55 GMT+0200 (Paris, Madrid (heure d'Ã©tÃ©))"
     }];
